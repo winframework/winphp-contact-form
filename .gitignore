@@ -1,0 +1,21 @@
+/nbproject/private/
+
+# Ignore all winPHP base
+www/*
+!www/app/
+www/app/*
+!www/app/block/
+www/app/block/*
+!www/app/block/email/
+www/app/block/email/*
+!www/app/block/email/content/
+www/app/block/email/content/*
+!www/app/block/email/content/contact.phtml
+
+!www/app/controller/
+www/app/controller/*
+!www/app/controller/ContatoController.php
+
+!www/app/view/
+www/app/view/*
+!www/app/view/contato.phtml
