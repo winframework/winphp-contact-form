@@ -9,7 +9,7 @@ use Win\Message\Email;
 use Win\Html\Form\ReCaptcha;
 
 /**
- * Envia um formulario de contato via E-mail
+ * Envia um formulário de contato via E-mail
  */
 class ContatoController extends \Win\Mvc\Controller {
 
@@ -22,11 +22,11 @@ class ContatoController extends \Win\Mvc\Controller {
 
 		/* Pega campos via POST */
 		$submit = Input::post('submit');
-		$name = trim(strip_tags(Input::post('name')));
-		$phone = trim(strip_tags(Input::post('phone')));
-		$email = trim(strip_tags(Input::post('email')));
-		$subject = trim(strip_tags(Input::post('subject')));
-		$message = trim(strip_tags(Input::post('message')));
+		$name = trim(Input::post('name'));
+		$phone = trim(Input::post('phone'));
+		$email = trim(Input::post('email'));
+		$subject = trim(Input::post('subject'));
+		$message = trim(Input::post('message'));
 
 		/* Prepara dados para view */
 		$error = null;
