@@ -1,4 +1,4 @@
-<img src="https://rawgit.com/winframework/winphp/master/www/public/img/image-readme.png"/>
+<img src="https://cdn.jsdelivr.net/gh/winframework/winphp/www/public/img/image-readme.png"/>
 
 Formulário de Contato com Envio de E-mail.
 
