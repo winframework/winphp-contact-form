@@ -4,18 +4,18 @@
 www/*
 !www/app/
 www/app/*
-!www/app/block/
-www/app/block/*
-!www/app/block/email/
-www/app/block/email/*
-!www/app/block/email/content/
-www/app/block/email/content/*
-!www/app/block/email/content/contact.phtml
+!www/app/blocks/
+www/app/blocks/*
+!www/app/blocks/email/
+www/app/blocks/email/*
+!www/app/blocks/email/contents/
+www/app/blocks/email/contents/*
+!www/app/blocks/email/contents/contact.phtml
 
-!www/app/controller/
-www/app/controller/*
-!www/app/controller/ContatoController.php
+!www/app/controllers/
+www/app/controllers/*
+!www/app/controllers/ContatoController.php
 
-!www/app/view/
-www/app/view/*
-!www/app/view/contato.phtml
+!www/app/views/
+www/app/views/*
+!www/app/views/contato.phtml
