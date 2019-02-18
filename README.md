@@ -8,4 +8,4 @@ Formulário de Contato com Envio de E-mail.
 
 ### Requisitos
 
-| winPHP 1.3+
+| winPHP 1.4+
